@@ -3,7 +3,7 @@ const canvas = document.getElementById("rive-canvas");
 (async function () {
   const rive = await RiveCanvas({ locateFile: () => "https://unpkg.com/@rive-app/canvas-advanced-single@2.21.6/rive.wasm" });
 
-  const response = await fetch("fire.riv");
+  const response = await fetch("test.riv");
   const bytes = new Uint8Array(await response.arrayBuffer());
   const file = await rive.load(bytes);
 
