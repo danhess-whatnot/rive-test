@@ -1,5 +1,5 @@
 const r = new rive.Rive({
-  src: "test.riv",
+  src: "fire.riv",
   canvas: document.getElementById("rive-canvas"),
   autoplay: true,
   onLoad: () => {
